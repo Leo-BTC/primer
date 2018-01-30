@@ -1,0 +1,464 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: ALSRubl;
+  src: url("fonts/rouble.ttf");
+}
+
+.rubznak {
+  font-family: ALSRubl, serif;
+}
+
+/* можно убрать, если в основном файле эти блоки не потеряются */
+/*.block-href-material .load_more {
+  width: 30%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #10659E;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+*/
+/* можно убрать, если в основном файле эти блоки не потеряются */
+/*.block-href-material .load_more .pic {
+  background: url("http://cdn.forbes.ru/sites/all/themes/forbes/img/all-material-arrow.png") center center no-repeat;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  height: 9px;
+  margin-top: 10px;
+}
+*/
+
+.main-rating-block a {
+  color: black;
+}
+
+.main-rating-block .block-rating-first  .block-rating-name {
+  padding: 20px 0 41px;
+}
+
+.main-rating-block .block-rating-first .block-rating-name a {
+  font-family: BaseFontBold, Arial, serif;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.main-rating-block .block-rating-first img {
+  width: 100%;
+  height: auto;
+}
+
+.main-rating-block .block-other-ratings:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.main-rating-block a.block-rating-pic{}
+.main-rating-block a.block-rating-pic img{
+  width: 100%;
+}
+.main-rating-block .block-other-ratings .block-rating-item{
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+.main-rating-block .block-other-ratings .block-rating-item:last-child{
+  margin: 0;
+}
+.main-rating-block .block-other-ratings .block-rating-item:last-child:after{
+  clear: both;
+  content: '';
+}
+
+.main-rating-block .block-other-ratings .block-rating-name {
+  padding: 16px 0 0;
+  margin-bottom: -8px;
+}
+
+.main-rating-block .block-other-ratings .block-rating-name a {
+  font-family: BaseFontBold, Arial, serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.main-rating-block .block-other-ratings img{
+  width: 100%;
+  height: auto;
+}
+
+.page-taxonomy-term{
+  border-top: solid 1px black;
+  padding: 30px 0 30px;
+}
+
+ .pane-page-title {
+  border-top: solid 1px black;
+  padding: 30px 0 30px;
+}
+
+.page-taxonomy-term .pane-page-title h1 {
+  text-transform: uppercase;
+  font-family: BaseFontBold, Arial, serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#admin-menu {
+  z-index: 10000;
+}
+
+.node-type-rating .under-menu {
+  border-bottom: none;
+}
+
+
+ul.list .tid57, .page-popular .main-section-tab .categories .tid57 {
+  color: transparent;
+  /*background: url("http://cdn.forbes.ru/sites/all/themes/forbes/img/forbeslife-woman.png") 0 0 no-repeat;*/
+  background: url("http://cdn.forbes.ru/sites/all/themes/forbes/img/forbes-life-logo-under-menu.svg") 0 0 no-repeat;
+  width: 76px;
+  height: 31px;
+}
+
+ul.list .tid423, .page-popular .main-section-tab .categories .tid423  {
+  color: transparent;
+  /*background: url("http://cdn.forbes.ru/sites/all/themes/forbes/img/forbeslife-woman.png") 0 0 no-repeat;*/
+  background: url("http://cdn.forbes.ru/sites/all/themes/forbes/img/forbes-woman-logo-under-menu.svg") 0 0 no-repeat;
+  width: 103px;
+  height: 31px;
+}
+
+.node-type-profile .read-also-block-href:before {
+  display: block;
+  content: "Читайте также";
+  font-family: BaseFontBold, Arial, serif;
+  background-color: #D9D9D9;
+  font-size: 12px;
+  line-height: 9px;
+  text-transform: uppercase;
+  padding: 7px 19px 6px;
+  margin: -25px 0 30px;
+}
+
+.page-node .content .col-center {
+  background: white;
+}
+
+.lifewoman-right-banner {
+  /*float: right;
+  position: relative;*/
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  margin-top: 40px;
+
+}
+
+/*.page-life-woman .first-material {
+  width: calc(100% - 325px);
+}*/
+/*.page-life-woman .first-material a.text{
+  display: block;
+  font-family: BaseFontBold, Arial, serif;
+  font-size: 39px;
+  line-height: 44px;
+  color: #000;
+  margin-bottom: 65px;
+}*/
+/*.page-life-woman .first-material .date {
+  font-size: 11px;
+  margin-bottom: 2px;
+  color: #7A7A7A;
+} */
+/*.page-life-woman .item-material {
+  width: 32.156%;
+  padding-bottom: 32px;
+  padding-right: 0;
+  margin-right: 1.725%;
+  margin-bottom: 0;
+  float: left;
+}*/
+/*.page-life-woman .item-material:nth-of-type(4),
+.page-life-woman .item-material:nth-of-type(7),
+.page-life-woman .item-material:nth-of-type(3n+11)  {
+  margin-right: 0;
+}*/
+/*.page-life-woman .item-material:nth-of-type(5),
+.page-life-woman .item-material:nth-of-type(3n+12) {
+  clear: both;
+}*/
+.page-forbes-life .pane-page-content > .pane-content,
+.page-forbes-woman .pane-page-content > .pane-content,
+.page-forbes-club .pane-page-content > .pane-content {
+  position: relative;
+}
+.page-life-woman .item-material .pic,
+.page-life-woman .big-item-material .pic{
+  display: block;
+  margin-bottom: 12px;
+}
+.page-life-woman .item-material img,
+.page-life-woman .big-item-material img,
+.page-life-woman .first-material img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+.page-life-woman .item-material .date {
+  font-size: 11px;
+  color: #7A7A7A;
+  margin-bottom: 6px;
+}
+.page-life-woman .item-material a.text {
+  font-family: BaseFontBold, Arial, serif;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -.5px;
+  color: #000;
+  display: block;
+}
+.page-life-woman .last-block {
+  width: 100%;
+}
+.page-life-woman .big-item-material {
+  width: 100%;
+  margin: 22px 0 39px;
+}
+.page-life-woman .big-item-material .date {
+  font-family: BaseFontMedium, Arial, serif;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+.page-life-woman .big-item-material a.text {
+  font-family: BaseFontBold, Arial, serif;
+  color: black;
+  display: block;
+  font-size: 39px;
+  line-height: 44px;
+  letter-spacing: -1px;
+}
+
+.page-life-woman .load_more {
+  clear: both;
+  padding: 10px 0 39px;
+}
+
+.page-life-woman .load_more>div:first-child {
+  border-top: solid 2px black;
+  padding: 43px 0 0;
+}
+.page-life-woman .load_more .pic {
+  margin: 13px auto 0;
+}
+
+
+.page-node.node-status-0 h1, .page-node.node-status-0 h2 {
+  background: #f88;
+}
+
+.with_video {
+  margin-top: 40px;
+}
+
+.pane-page-content .pane-title {
+  display: none;
+}
+
+.block-page-search form input[type="text"] {
+  height: 50px;
+  padding: 2px 5px 2px 50px;
+}
+
+.article-top img, .article-bottom img {
+  max-width: 100%;
+  height: auto !important;
+}
+.article-top p > img, .article-bottom p > img,
+.article-top p a img, .article-bottom p a img
+{
+  display: inline-block;
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+  .lifewoman-right-banner {
+    margin-top: 33px;
+  }
+  .page-life-woman .first-material {
+    width: 100%;
+  }
+  .page-life-woman .item-material:nth-child(1),
+  .page-life-woman .item-material:nth-child(2) {
+    width: calc(100% - 325px);
+  }
+  .page-life-woman .item-material:nth-child(3) {
+    width: 100%;
+    padding-right: 325px;
+  }
+  .page-life-woman .big-item-material {
+    margin: 0 0 22px;
+  }
+  .page-life-woman .big-item-material a.text {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  /*.page-life-woman .item-material:nth-child(3n+10){
+    margin-right: 0;
+  }
+  .page-life-woman .item-material:nth-of-type(4) {
+    margin-right: 1.725%;
+  }
+  .page-life-woman .item-material:nth-of-type(5){
+    clear: none;
+  }
+  .page-life-woman .item-material:nth-of-type(6){
+    margin-right: 0;
+  }
+  .page-life-woman .item-material:nth-of-type(3n+11) {
+    clear: both;
+    margin-right: 1.725%;
+  }
+  .page-life-woman .item-material:nth-of-type(3n+12) {
+    clear: none;
+  }*/
+
+  .page-taxonomy-term .pane-page-title {
+    padding: 24px 0;
+  }
+  .page-taxonomy-term .pane-page-title h1 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .main-rating-block .block-rating-first .block-rating-name {
+    padding: 10px 0 21px;
+  }
+  .main-rating-block .block-rating-first .block-rating-name a {
+    font-size: 25px;
+    line-height: 26px;
+  }
+  .main-rating-block .block-other-ratings .block-rating-name {
+    padding: 10px 0 0;
+  }
+  .main-rating-block .block-other-ratings .block-rating-name a {
+    font-size: 13px;
+    line-height: 18px;
+    display: inline-block;
+  }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 414px) {
+  .page-taxonomy-term .pane-page-title {
+    border: none;
+    padding: 25px 0 22px;
+  }
+  .page-taxonomy-term .pane-page-title h1 {
+    font-size: 13px;
+    line-height: 15px;
+    display: block;
+  }
+  .page-taxonomy-term .pane-page-title h1:after {
+    content: '';
+    display: block;
+    position: relative;
+    bottom: -5px;
+    width: 75%;
+    height: 4px;
+    background-color: #ffa800;
+  }
+
+  .page-taxonomy-term .main-rating-block {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .main-rating-block .block-rating-first .block-rating-name {
+    padding: 12px 0 25px;
+  }
+  .main-rating-block .block-rating-first .block-rating-name a {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    display: inline-block;
+  }
+
+  .main-rating-block .block-other-ratings .block-rating-name {
+    padding: 12px 0 25px;
+    margin-bottom: 0;
+  }
+  .main-rating-block .block-other-ratings .block-rating-item {
+    width: 100%;
+    margin: 0;
+  }
+  .main-rating-block .block-other-ratings .block-rating-name a {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    display: inline-block;
+  }
+
+  .lifewoman-right-banner {
+    display: none;
+  }
+
+  .page-life-woman .first-material {
+    width: 100%;
+  }
+
+  .page-life-woman  .first-material a.text {
+    font-size: 21px;
+    line-height: 26px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+  }
+
+  .page-life-woman .first-material .date {
+    font-size: 11px;
+    margin-bottom: 2px;
+    position: relative;
+    float: right;
+    margin-top: -26px;
+    padding: 0 10px;
+    background-color: #fff;
+    color: #7A7A7A;
+  }
+
+  .page-life-woman .pane-content .item-material {
+    padding-bottom: 30px;
+    width: 48.59%;
+    /*margin-right: 2.82%;*/
+  }
+  .page-life-woman .pane-content .main-forbes-video {
+    width: 100%;
+  }
+  .page-life-woman .big-item-material {
+    margin: 0 0 22px;
+  }
+
+  .page-life-woman .pane-content .big-item-material a.text{
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .page-life-woman .pane-content .item-material a.text {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  /*.page-life-woman  .item-material:nth-child(3), .page-life-woman  .item-material:nth-child(5),
+  .page-life-woman  .item-material:nth-child(7), .page-life-woman  .item-material:nth-child(2n+10)  {
+    margin-right: 0;
+  }
+
+  .page-life-woman .item-material:nth-of-type(4) {
+    clear: both;
+  }
+  .page-life-woman .item-material:nth-of-type(5){
+    clear: none;
+  }
+  .page-life-woman .item-material:nth-of-type(3n+12) {
+    clear: none;
+  } */
+
+}

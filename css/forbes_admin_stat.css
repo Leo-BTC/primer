@@ -1,0 +1,205 @@
+﻿.statistic {
+
+}
+.statistic .statistic-group{
+
+}
+.statistic .statistic-group>div{
+  cursor: pointer;
+  float: left;
+  border-radius: 5px 5px 0 0;
+  border: solid 1px black;
+  border-bottom: none;
+  background: #e1e1e1;
+  padding: 10px 30px;
+}
+.statistic .statistic-group>div.active{
+  font-weight: bold;
+}
+
+.statistic .statistic-group:after{
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+.statistic .content {
+  border: solid 1px #aaa;
+
+}
+
+.statistic .content .summary{
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #aaa;
+}
+
+.statistic .content .summary .summary_table{
+  display: table;
+  border: none;
+  max-width: 1200px;
+}
+
+.statistic .content .summary td {
+  padding: 0 3px;
+  min-width: 150px;
+}
+
+.statistic .content .summary td:last-child {
+  padding: 0 3px;
+  min-width: 150px;
+  border: none;
+}
+
+.statistic .content .summary .total{
+  margin: 0 0 5px;
+  padding: 0;
+}
+
+.statistic .content .summary .total td {
+  border-bottom: solid 1px black;
+}
+
+.statistic .content .summary  .section_name {
+  font-weight: 600;
+  width: 220px;
+  cursor: pointer;
+}
+
+.statistic .content .summary  .section_name.non-clickable {
+  cursor: inherit;
+}
+
+.statistic .content .summary .count {
+  font-style: italic;
+}
+.statistic .content .summary .count_name {
+  width: 85px;
+  min-width: 85px;
+}
+
+.statistic .content .filter{
+  height: 10px;
+  padding: 10px;
+}
+
+.statistic .content .filter>div{
+  float: left;
+  margin-right: 10px;
+}
+
+.statistic .content .filter::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.statistic .content .filter .dates input {
+  border: solid 1px;
+}
+
+.statistic .content .pager::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.statistic .content .pager span {
+  padding: 0 5px;
+  float:left;
+}
+.statistic .content .pager span.goto {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.statistic .content .only-new span{
+  vertical-align: top;
+}
+
+
+.statistic .content .run,
+.statistic .content .excel {
+  background: #dcdcdc;
+  border: solid 1px #999;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 7px;
+}
+
+.statistic .content>.author_name {
+  padding: 10px 10px 5px;
+}
+.statistic .content>.author_name .x {
+  display: none;
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  background: #aaa;
+  color: white;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+}
+
+.statistic .content table .author_name {
+  cursor:pointer;
+}
+.statistic .content .error, .statistic .warning_line {
+  color: red;
+  font-weight: bold;
+  padding: 10px 10px 0;
+}
+
+.statistic .data table th {
+  cursor: pointer;
+
+}
+
+.statistic .data table th.asc:after {
+  content: '↑';
+}
+.statistic .data table th.desc:after {
+  content: '↓';
+
+}
+
+.tariff_element_form {
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-left: -200px;
+  width: 400px;
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  background: white;
+  padding: 20px;
+  z-index: 1;
+}
+
+.tariff_element_form form span {
+  width: 50%;
+  display: inline-block;
+
+}
+
+.tariff_element_form form>div {
+  margin: 0 0 10px;
+}
+
+
+.tariff_element_form .title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.tariff_element_form .warning {
+  background: white;
+  color: red;
+}
+
+
+#tariff_element_submit {
+  margin: 20px 0 0;
+}

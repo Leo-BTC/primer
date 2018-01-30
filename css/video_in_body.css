@@ -1,0 +1,61 @@
+﻿.video_in_body_adder{
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  width: 300px;
+  background: #FFF none repeat scroll 0% 0%;
+  border: 1px solid #AAA;
+  padding: 20px;
+  margin: 0 0 0 -150px;
+}
+
+.video_in_body_adder .x{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.video_in_body_adder .form-type-textfield input, .video_in_body_adder .form-type-select input {
+  max-width: 90%;
+}
+
+.video_in_body_adder .btn{
+  background: #CCC none repeat scroll 0% 0%;
+  border-radius: 5px;
+  border: 1px solid #AAA;
+  padding: 5px 15px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+
+.video_in_body_adder iframe{
+  width: 100%;
+}
+
+ul.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
+  background: white;
+  border: solid 1px #aaa;
+  padding: 2px 3px;
+  display: block;
+  width: 300px;
+}
+
+ul.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all li{
+  display: block;
+}
+
+ul.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all li a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+ul.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all li a:hover{
+  text-decoration: none;
+}
+
